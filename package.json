@@ -1,0 +1,42 @@
+{
+  "name": "IottiveAppDemo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "expo": "~52.0.24",
+    "expo-camera": "~16.0.17",
+    "expo-file-system": "~18.0.11",
+    "expo-media-library": "^17.0.6",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-formik": "^1.7.8",
+    "react-native-paper": "^5.13.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^5.1.0",
+    "react-native-screens": "^4.4.0",
+    "react-native-view-shot": "~4.0.3",
+    "react-navigation": "^5.0.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
